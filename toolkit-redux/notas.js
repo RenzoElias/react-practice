@@ -23,7 +23,19 @@ console.log(resApi.personajes?.length)
 
 // slice - es una funcion que recibe objeto // tiene nombre, initialState y reducers
 
+// 1 crear snippet en vscode
+// comand+shift+p // configure user snippets
+// 2 escoger el lenguaje
+// 3 habra un ejemplo comentado de como hacer el snnipet
+// prefix - es el nombre del atajo
+// body - lo que contiene, al poner cada linea debe estar con "" y al final una coma, menos el ultimo
+// para que el cursor se ponga en un sitio // se pone $1
+// para que el cursor reemplace o deje seleccionado una palabra debe estar asi 
+// ${1:template}Slice
+// y para un segundo reemplazo de variable es
+// ${2:counter}
 
-
+// rafc - crear un funcional component - snippet extension
+// reduxslice - crear un slice de redux - snippet creado
 
 

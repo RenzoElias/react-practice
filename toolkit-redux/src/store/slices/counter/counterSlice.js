@@ -9,7 +9,7 @@ export const counterSlice = createSlice({
   name: 'counter',
   // initialState, // si se crea afuera
   initialState: {
-    counter: 11,
+    counter: 10,
   },
   reducers: { // estos son los "actions"
     increment: (state) => {
