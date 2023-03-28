@@ -7,12 +7,17 @@ export const pokemonSlice = createSlice({
         pokemons: [],
         isLoading: false,
     },
-    reducers: {
+    reducers: { // sincronas
         startLoadingPokemons: (state, /* action - enviado por parametro */ ) => {
             state.isLoading = true;
         },
-        setPokemons: (state, action) => {
-            console.log(action)
+        setPokemons: (state, action) => { // action - tiene payload: any - payload es el parametro que recibira, cuando se invoque esta funcion setPokemons
+            // console.log(action)
+
+            state.isLoading = false;
+            state.page = action.payload.page;
+            state.pokemons = action.payload.pokemons
+
         }
     }
 });

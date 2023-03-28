@@ -18,6 +18,8 @@ console.log(resApi.personajes?.length)
 // react // enter
 // 4 selecion que se usara - js
 // javascript // enter
+// 5 instalar axios
+// yarn add axios
 
 // info // el react + vite // el vite es para poder empezar de cero y luego poder agregar el redux manualmente
 
@@ -38,4 +40,6 @@ console.log(resApi.personajes?.length)
 // rafc - crear un funcional component - snippet extension
 // reduxslice - crear un slice de redux - snippet creado
 
+// thunks - es una accion que es de codigo asincrono, que dispara otra accion 
+// (Por ejemplo cuando se resuelve una peticion API asincrona, de acuerdo a su respuesta disparara otra accion)
 
