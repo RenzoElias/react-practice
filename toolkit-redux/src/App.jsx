@@ -7,8 +7,11 @@ import { decrement, increment, incrementBy } from './store/slices/counter/counte
 
 function App() {
 
+  // Para leer o usar algo del store se usa useSelector
   const { counter } = useSelector(state => state.counter)
   // const [count, setCount] = useState(0)
+
+  // Para modificar el store se usa useDispatch - Disparando una acción
   const dispatch = useDispatch();
 
 

@@ -8,6 +8,7 @@ import { store } from './store'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
+    {/* Para se use el Store en toda la app */}
     <Provider store={store}>
       {/* <App /> */}
       <PokemonApp />

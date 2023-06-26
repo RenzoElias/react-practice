@@ -19,7 +19,7 @@ export const counterSlice = createSlice({
       state.counter -= 1
     },
     incrementBy: (state, action) => {
-      state.counter += action.payload
+      state.counter += action.payload // action.payload es el valor que se le pasa al action // osea incrementBy(5) entonces action.payload = 5
     },
     // incrementByAmount: (state, action) => {
     //   state.counter += action.payload
