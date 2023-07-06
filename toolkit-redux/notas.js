@@ -42,4 +42,3 @@ console.log(resApi.personajes?.length)
 
 // thunks - es una accion que es de codigo asincrono, que dispara otra accion 
 // (Por ejemplo cuando se resuelve una peticion API asincrona, de acuerdo a su respuesta disparara otra accion)
-
