@@ -28,7 +28,7 @@ const events = [{
 export const CalendarPage = () => {
   return (
     <>
-      <Navbar />
+      <Navbar /> 
       <Calendar
         localizer={localizer}
         events={events}
